@@ -1,0 +1,19 @@
+*{
+	margin:0 0;
+}
+.main{
+	background-color: #3AB795;
+	height:100vh;
+}
+.top-picture{
+	color: #EDEAD0;
+	text-align: center;
+	height:50vh;
+	line-height: 50vh;
+}
+.menu-btn{
+	color:#FFCF56;
+}
+.menu{
+	color:#FFCF56;
+}
