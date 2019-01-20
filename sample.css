@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{margin:0;padding:0; outline:none;}
+html {height:100%; /*overflow:hidden;*/}
+body, body p{font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic ProN','メイリオ',Meiryo,'ＭＳ Ｐゴシック', sans-serif; font-size:10pt; line-height:1.7;}
+body {margin:0;padding:0; background:#f8f8f8 url(/img/bg_header.svg) no-repeat center top; background-size: 2000px 500px; color:#474644; text-align:center; scrolling:yes; position:relative; -webkit-text-size-adjust: 100%;}
+@media screen and (min-width: 2000px){
+    body {background-size: contain;}
+}
+a, a:visited{color:#474644; text-decoration:none; overflow:hidden; outline:none;}
+a:hover{text-decoration:underline; color: #000;}
+
+img{border:none; vertical-align: top;}
+img.aligncenter{text-align:center!important;}
+img.alignleft{float:left; padding: 0 20px 0 0;}
+img.alignright{float:right; padding: 0 0 0 20px;}
+table{border-collapse:collapse;}
+ul{list-style-type:none;}
+
+h1, h2, h3{font-weight:normal;}
+
+/* : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : COMMON : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : */
+#header{height: 880px; position: relative; overflow: hidden;}
+#header p.img{width: 1000px; margin: 0 auto; padding: 80px 0 50px; text-align: left;}
+#header p.btnKitchibe{width: 250px; height: 50px; position: absolute; right: 0; bottom: 0;}
+#header ul.snsList{width: 80px; height: 32px; position: absolute; right: 32px; top: 32px;}
+#header ul.snsList li{width: 40px; float: left; text-align: right;}
+#header div.mainBlock{width: 700px; position: absolute; top: 330px; right: 2%; right: calc(40% - 500px)}
+#header div.mainBlock h1{padding: 0 10px 40px;}
+#header div.mainBlock ul.menuList{}
+#header div.mainBlock ul.menuList li{display: inline;}
+
+#content{}
+#content div.seg1{padding: 55px 0 160px; width: 100%; min-height: 300px; background: url(/img/line_top.png) no-repeat center bottom; background-size: 100% 160px; overflow: hidden;}
+#content div.seg1:last-child{background: none;}
+#content div.seg2{padding: 0 0 160px; margin: -25px 0 0 0; width: 100%; min-height: 300px; background: url(/img/line_bottom.png) no-repeat center bottom #f0f0f0; background-size: 100% 160px; overflow: hidden;}
+#content div.conceptBlock{width: 1000px; margin:0 auto; padding: 25px 0 40px; _zoom:1; overflow: hidden; text-align: left;}
+#content div.conceptBlock p{padding: 0 0 30px;}
+#content div.conceptBlock div.jp{width: 470px; float: left; padding: 55px 50px 0 0;}
+#content div.conceptBlock div.en{width: 470px; float: left;}
+#content h2{padding: 0 0 40px; font-size: 18pt;}
+#content h2 img{display: block; margin: 0 auto 15px;}
+#content h2 span{display: block; font-size: 10pt;}
+#content p.mail{font-size: 22pt; padding: 150px 0 80px;}
+#content p.newsCaption{padding: 20px 0 60px;}
+#content iframe{margin: 0 0 30px;}
+
+#content div.productBlock{width: 900px; text-align: left; margin: 0 4% 30px auto; display: table;}
+#content div.productBlock.p2{margin: 0 auto 30px 6%;}
+#content div.productBlock p.img{display: table-cell; padding: 0 50px 10px 0; vertical-align: top;}
+#content div.productBlock.p3 p.img, #content div.productBlock.p4 p.img{padding: 0 0 10px 50px;}
+#content div.productBlock.p4{margin-bottom: 75px;}
+#content div.productBlock.p5{margin-bottom: 40px;}
+#content div.productBlock div.captionWrap{display: table-cell; vertical-align: top;}
+#content div.productBlock div.captionWrap div.inner{position: relative;}
+#content div.productBlock div.captionWrap div.inner h3{font-size: 14pt; padding: 40px 0 30px;}
+#content div.productBlock div.captionWrap div.inner p{padding: 0 0 20px; font-size: 9.5pt;}
+#content div.productBlock div.captionWrap div.inner p.dim{padding-right: 180px;}
+#content div.productBlock div.captionWrap div.inner p.sample{width: 200px; height: 60px; position: absolute; right: 0; bottom: 0px; padding: 0; line-height: 60px; display: table;}
+#content div.productBlock div.captionWrap div.inner p.sample span{display: table-cell; width: 60px;}
+#content div.productBlock div.captionWrap div.inner p.sample span.caption{color: #9c9c9b; text-align: right; padding: 0 15px 0 0; width: auto;}
+#content div.productBlock div.captionWrap div.inner p.sample span img{border-radius: 50%;}
+
+#content div.makerWrap{display: table; width: 65%; margin: 15px auto 60px 10%; table-layout: fixed;}
+#content div.makerWrap.designer{margin: 0 10% 70px auto;}
+#content div.makerWrap p.img, #content div.makerWrap div{display: table-cell; vertical-align: top;}
+#content div.makerWrap p.img{width: 200px;}
+#content div.makerWrap div{text-align: left; padding: 0 0 0 30px;}
+#content div.makerWrap div p{font-size: 9.5pt; padding: 0 0 20px;}
+#content div.makerWrap div p.position{padding: 0 0 1px;}
+#content div.makerWrap div p.link{font-size: 12pt;}
+#content div.makerWrap div h3{font-size: 14pt; padding: 0 0 15px;}
+
+#content ul.factoryList{letter-spacing: 0; font-size: 0; width: 102.5%; margin: 0 0 50px;}
+#content ul.factoryList li{display: inline-block; width: 23%; padding: 0 2% 0 0; vertical-align: top;}
+#content ul.factoryList li:nth-child(2){padding-top: 25px;}
+#content ul.factoryList li:nth-child(3){padding-top: 50px;}
+#content ul.factoryList li:nth-child(4){padding-top: 75px;}
+
+#footer{}
+#footer p{font-size: 8.5pt; padding: 15px 0 20px;}
+
+p.fixLogo{width: 200px; height: 120px; position: fixed; left: 0; top: 40px; z-index: 100; display: none;}
+p.fixKitchibe{width: 250px; height: 50px; position: fixed; right: 0; bottom: 60px; z-index: 100; display: none;}
+
+.hidden1{transition: .6s; transform: translate(0,30px); opacity: 0;}
+.hidden2{transition: .5s; transform: translate(0,20px); opacity: 0;}
+.show{transform: translate(0,0); opacity: 1.0;}
+
+/* : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : PC (WIDE) : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : */
+@media screen and (min-width: 1250px){
+}
+
+/* : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : PC : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : */
+@media screen and (min-width: 1000px){
+    .sp{display:none;}
+}
+
+/* : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : SP : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : */
+@media screen and (max-width: 999px){
+    .pc{display:none;}
+    
+    body {background-size: 1000px 250px;}
+    #header{height: auto; padding: 0 0 80px;}
+    #header p.img{width: 90%; max-width:600px; margin: 0 auto; padding: 0;}
+    #header p.img img{width: 100%; height: auto;}
+    #header p.btnKitchibe{width: 200px; height: 40px;}
+    #header p.btnKitchibe img{width: 200px; height: 40px;}
+    #header ul.snsList{right: 5%; top: 15px;}
+    #header div.mainBlock{width: 90%; max-width:600px; margin: 0 auto; padding: 70px 0 30px; position: relative; top: auto; right: auto;}
+    #header div.mainBlock h1{padding: 0 0 30px;}
+    #header div.mainBlock h1 img{width: 184px; height: 136px;}
+    #header div.mainBlock ul.menuList{}
+    #header div.mainBlock ul.menuList li{display: inline; line-height: 2;}
+    
+    #content h2{padding: 0 0 30px;}
+    #content h2 img{width: auto; height: 27px;}
+    
+    #content div.seg1{padding: 40px 0 60px; margin: 0; width: 100%; min-height: 200px; background: url(/img/line_top.png) no-repeat center bottom; background-size: 100% 80px; overflow: hidden;}
+    #content div.seg1:last-child{background: none;}
+    #content div.seg2{padding: 10px 0 60px; margin: 0; width: 100%; min-height: 200px; background: url(/img/line_bottom.png) no-repeat center bottom #f0f0f0; background-size: 100% 80px; overflow: hidden;}
+    #content div.conceptBlock{width: 90%; max-width: 600px; margin:0 auto; padding: 0 0 40px; _zoom:1; overflow: hidden; text-align: left;}
+    #content div.conceptBlock p{padding: 0 0 20px;}
+    #content div.conceptBlock div.jp{width: 100%; float: none; padding: 0 0 20px;}
+    #content div.conceptBlock div.en{width: 100%; float: none;}
+    
+    #content div.productBlock{width: 90%; max-width: 600px; margin: 0 auto; display: block;}
+    #content div.productBlock.p2{margin: 0 auto;}
+    #content div.productBlock p.img{display: block; padding: 0; width: 100%!important;} 
+    #content div.productBlock p.img img{width: 100%; height: auto;}
+    #content div.productBlock.p3 p.img, #content div.productBlock.p4 p.img{padding: 0 0 0 0;}
+    #content div.productBlock.p4{margin-bottom: 0;}
+    #content div.productBlock.p5{margin-bottom: 0;}
+    #content div.productBlock div.captionWrap{display: block; padding: 25px 0 0 0;}
+    #content div.productBlock div.captionWrap div.inner{position: relative; padding: 0 0 50px; margin: 0 0 30px;}
+    #content div.productBlock div.captionWrap div.inner h3{font-size: 14pt; padding: 0 0 20px;}
+    #content div.productBlock div.captionWrap div.inner p.dim{padding-right: 0;}
+    
+    #content div.makerWrap{display: block; width: 90%; max-width: 600px; margin: 0 auto 30px;}
+    #content div.makerWrap.designer{margin: 0 auto 30px;}
+    #content div.makerWrap p.img, #content div.makerWrap div{display: block;}
+    #content div.makerWrap p.img{width: 200px; margin: 0 auto 20px;}
+    #content div.makerWrap div{text-align: left; padding: 0 0 10px;}
+    #content div.makerWrap div p.link{font-size: 11pt;}
+    
+    #content ul.factoryList{letter-spacing: 0; font-size: 0; width: 100%; margin: 0 0 70px;}
+    #content ul.factoryList li{display: inline-block; width: 50%; padding:0;}
+    #content ul.factoryList li:nth-child(2){padding-top: 20px;}
+    #content ul.factoryList li:nth-child(3){padding-top: 0; margin-top: -20px;}
+    #content ul.factoryList li:nth-child(4){padding-top: 0;}
+    
+    #content #news iframe{margin:0 0 35px;}
+    #content p.mail{font-size: 16pt; padding: 50px 0 60px;}
+    
+    #footer p{padding: 15px 0 15px;}
+    
+    p.fixLogo{width: 150px; height: 90px; top: 25px;}
+    p.fixLogo img{width: 150px; height: 90px;}
+    p.fixKitchibe{width: 200px; height: 40px; bottom: 45px;}
+    p.fixKitchibe img{width: 200px; height: 40px;}
+}
+@media screen and (max-width: 800px){
+    body {background-size: 800px 200px;}
+}
+
+/* : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : OTHER : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : */
+.blur{-webkit-filter: blur(40px); -ms-filter: blur(40px); filter: blur(40px);}
+
+.clearfix:after{content: "."; display: block; height: 0; font-size:0; clear: both; visibility:hidden;}
+.clearfix{display: inline-block;}
+.clear{clear:both; margin:0; padding:0;}
+
+.flLeft{float:left; padding:0 25px 25px 0;}
+.flRight{float:right; padding:0 0 25px 25px;}
+
+.margin0{padding:0!important;;}
+.margin5{padding:0 0 5px 0!important;;}
+.margin10{padding:0 0 10px 0!important;}
+.margin15{padding:0 0 15px 0!important;}
+.margin20{padding:0 0 20px 0!important;;}
+.margin25{padding:0 0 25px 0!important;;}
+.margin30{padding:0 0 30px 0!important;;}
+.margin35{padding:0 0 35px 0!important;;}
+.margin40{padding:0 0 40px 0!important;;}
+.margin45{padding:0 0 45px 0!important;;}
+.margin50{padding:0 0 50px 0!important;}
+.margin60{padding:0 0 60px 0!important;;}
+.margin65{padding:0 0 65px 0!important;;}
+.margin70{padding:0 0 70px 0!important;;}
+.margin75{padding:0 0 75px 0!important;;}

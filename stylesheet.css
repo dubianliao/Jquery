@@ -1,19 +1,62 @@
 *{
 	margin:0 0;
+　　box-sizing:border-box;
+    line-height: 1.25rem;
+　　margin-bottom: 1.25rem;
 }
-.main{
-	background-color: #3AB795;
-	height:100vh;
+
+#header {
+	background-image: url("public/tougei3.png");
+	background-size: cover;
 }
-.top-picture{
-	color: #EDEAD0;
+#header div.inner-left{
+	width:50%;
+	background-color: ;
+	float:left;
+}
+#header div.inner-left img {
+	padding:150px 20px 10px 100px;
+	width:calc( 100% - 100px);
+}
+#header div.inner-right{
+	width:50%;
+	background-color: ;
+	float: left;
+}
+#header div.inner-right img{
+	width:60%;
+	padding:200px 0 0 5%;
+}
+#header div.inner-right ul.list{
+	width:100%;
+	background-color: ;
+	padding-left: 0;
+	padding-bottom: 50px;
+}
+#header div.inner-right ul.list li{
+	display:inline-block;
+	list-style: none;
+	padding-left:20px;
+	font-weight: bold;
+}
+#header div.inner-right div.sns{
+
+}
+#header div.inner-right div.sns i{
+	float:right;
+	padding-right:25%;
+	font-size: 2.5rem;
+}
+#header div.bottom{
+	width: 100%;
+	clear: both;
 	text-align: center;
-	height:50vh;
-	line-height: 50vh;
+	background-color: ;
+	padding-top:20px;
 }
-.menu-btn{
-	color:#FFCF56;
+#header div.bottom img{
+	width:10%;
 }
-.menu{
-	color:#FFCF56;
+#header div.bottom p{
+	font-weight: bold;
 }
