@@ -1,7 +1,7 @@
 *{
 	margin:0 0;
 　　box-sizing:border-box;
-    line-height: 1.25rem;
+    line-height: 1.82rem;
 　　margin-bottom: 1.25rem;
 }
 
@@ -59,4 +59,54 @@
 }
 #header div.bottom p{
 	font-weight: bold;
+}
+
+/*==========================*/
+
+#content div.concept-top{
+	width:100%;
+	text-align: center;
+	padding:50px 0 50px 0;
+}
+#content div.concept-top p{
+	font-weight: normal;
+}
+#content div.concept-top p:first-child{
+	font-size:1.5rem;
+	padding-bottom: 5px;
+}
+#content div.concept-left{
+	width: 50%;
+	float:left;
+	padding-left: 10%;
+	box-sizing: border-box;
+	font-size: 0.8rem;
+}
+#content div.concept-right{
+	width:50%;
+	float: left;
+	padding-left:3%;
+	padding-bottom: 100px;
+	box-sizing: border-box;
+	font-size:0.8rem;
+}
+
+
+#content div.works{
+	background-color: rgba(204,204,204,0.7);
+	padding-top: 40px;
+	clear:both;
+}
+
+#content div.works-top{
+	width:100%;
+	text-align: center;
+	padding:50px 0 50px 0;
+}
+#content div.works-top p{
+	font-weight: normal;
+}
+#content div.works-top p:first-child{
+	font-size:1.5rem;
+	padding-bottom: 5px;
 }
