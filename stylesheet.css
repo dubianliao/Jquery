@@ -110,3 +110,40 @@
 	font-size:1.5rem;
 	padding-bottom: 5px;
 }
+#content div.works-left{
+	max-width:50%;
+	float:left;
+	text-align: center;
+	background-color: rgba(204,204,204,0.7);
+}
+#content div.works-left img{
+	width:80%;
+	padding-top: 50px;
+}
+#content div.works-right{
+	max-width:50%;
+	float:left;
+	text-align: center;
+	background-color: rgba(204,204,204,0.7);
+}
+#content div.works-right img{
+	width:80%;
+	padding-top: 50px;
+}
+
+#content div.maker{
+	padding-top: 40px;
+	clear:both;
+}
+#content div.maker-top{
+	width:100%;
+	text-align: center;
+	padding:50px 0 50px 0;
+}
+#content div.maker-top p{
+	font-weight: normal;
+}
+#content div.maker-top p:first-child{
+	font-size:1.5rem;
+	padding-bottom: 5px;
+}
