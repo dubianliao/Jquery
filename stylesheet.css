@@ -4,6 +4,9 @@
     line-height: 1.82rem;
 　　margin-bottom: 1.25rem;
 }
+body{
+	/*padding:0 10% 0 10%;*/
+}
 
 #header {
 	background-image: url("public/tougei3.png");
@@ -19,7 +22,7 @@
 	width:calc( 100% - 100px);
 }
 #header div.inner-right{
-	width:50%;
+	width:40%;
 	background-color: ;
 	float: left;
 }
@@ -38,13 +41,14 @@
 	list-style: none;
 	padding-left:20px;
 	font-weight: bold;
+	font-size: 1rem;
 }
 #header div.inner-right div.sns{
 
 }
 #header div.inner-right div.sns i{
 	float:right;
-	padding-right:25%;
+	padding-right:20%;
 	font-size: 2.5rem;
 }
 #header div.bottom{
@@ -95,6 +99,8 @@
 #content div.works{
 	background-color: rgba(204,204,204,0.7);
 	padding-top: 40px;
+	padding-bottom: 40px;
+	overflow: hidden;
 	clear:both;
 }
 
@@ -114,7 +120,6 @@
 	max-width:50%;
 	float:left;
 	text-align: center;
-	background-color: rgba(204,204,204,0.7);
 }
 #content div.works-left img{
 	width:80%;
@@ -124,7 +129,6 @@
 	max-width:50%;
 	float:left;
 	text-align: center;
-	background-color: rgba(204,204,204,0.7);
 }
 #content div.works-right img{
 	width:80%;
@@ -133,12 +137,14 @@
 
 #content div.maker{
 	padding-top: 40px;
+	padding-bottom: 40px;
 	clear:both;
+	overflow: hidden;
 }
 #content div.maker-top{
 	width:100%;
 	text-align: center;
-	padding:50px 0 50px 0;
+	padding:30px 0 20px 0;
 }
 #content div.maker-top p{
 	font-weight: normal;
@@ -146,4 +152,70 @@
 #content div.maker-top p:first-child{
 	font-size:1.5rem;
 	padding-bottom: 5px;
+}
+#content div.maker-top-wrap{
+	padding: 50px 0 0 0;
+	width:100%;
+}
+#content div.maker-top-left{
+	float:left;
+	width:50%;
+	text-align: center;
+}
+#content div.maker-top-left img{
+	width:50%;
+}
+#content div.maker-top-right{
+	font-size:0.8rem;
+	float:left;
+	width:50%;
+}
+#content div.maker-bottom-wrap{
+	padding: 50px 0 0 0;
+	clear:both;
+	width:100%;
+}
+#content div.maker-bottom-left{
+	float:left;
+	width:50%;
+	text-align: center;
+}
+#content div.maker-bottom-left img{
+	width:50%;
+	text-align: center;
+}
+#content div.maker-bottom-right{
+	font-size:0.8rem;
+	float:left;
+	width:50%;
+}
+
+/*==========================*/
+
+#footer div.news{
+	background-color: rgba(204,204,204,0.7);
+	padding-top: 40px;
+	padding-bottom: 40px;
+	clear:both;
+}
+
+#footer div.news-top{
+	width:100%;
+	text-align: center;
+	padding:50px 0 20px 0;
+}
+#footer div.news-top p{
+	font-weight: normal;
+}
+#footer div.news-top p:first-child{
+	font-size:1.5rem;
+	padding-bottom: 5px;
+}
+#footer div.news-message{
+	font-size: 0.8rem;
+	text-align: center;
+	padding-bottom: 20px;
+}
+#footer div.news-bottom{
+	text-align: center;
 }
