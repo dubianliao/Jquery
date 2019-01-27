@@ -219,3 +219,35 @@ body{
 #footer div.news-bottom{
 	text-align: center;
 }
+
+#footer div.contacts{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	clear:both;
+}
+#footer div.contacts-top{
+	width:100%;
+	text-align: center;
+	padding:50px 0 20px 0;
+}
+#footer div.contacts-top p{
+	font-weight: normal;
+}
+#footer div.contacts-top p:first-child{
+	font-size:1.5rem;
+	padding-bottom: 5px;
+}
+#footer div.contacts-bottom p{
+	font-size:1.6rem;
+	padding:50px 0 50px 0;
+	text-align: center;
+}
+
+#footer div.footer{
+	background-color: rgba(204,204,204,0.9)
+}
+#footer div.footer p{
+	text-align: center;
+	font-size: 0.6rem;
+	padding:10px 0 10px 0;
+}
